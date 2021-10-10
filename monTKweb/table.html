@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập tài khoản</title>
+    <link rel="stylesheet" type="text/css" href="../monTKweb/bang.css" >
+</head>
+<body>
+    <h2>Đăng nhập tài khoản</h2>
+
+<form action="../bai mau/mau.html" >
+  <div class="imgcontainer">
+    <img src="../anh web/images.jpg" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Tài Khoản</b> </label>
+    <input type="text" placeholder="tài khoản..." name="uname" required>
+
+    <label for="psw"><b>Mật khẩu </b></label>
+    <input type="password" placeholder="mật khẩu..." name="psw" required minlength="10" >
+        
+    <button type="submit">Đăng nhập</button>
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Nhớ mật khẩu
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn"> <a href="../bai mau/mau.html"> Cancel </a> 
+    </button>
+    <span class="psw"> Quên <a href="#">Mật Khẩu?</a></span>
+  </div>
+</form>
+</body>
+</html>

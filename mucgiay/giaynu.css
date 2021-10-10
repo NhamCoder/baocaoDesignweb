@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo img {
+margin-left: 50px;
+border-radius: 20px 20px 20px 20px;
+border: 1px solid #333333;
+}
+.text {
+  color:teal;
+  font-size: 22px;
+  flex-wrap: wrap ;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+h1{
+  text-align: center;
+}
+.row{
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+}
+.col-2th{
+  flex: 0 0 20%;
+  max-width: 90%;
+}
+.card{
+  margin-right: 1px ;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 38px;
+}
+.image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 25px 25px 25px 25px;
+  border: 3px solid #333333;
+}
+.image video{
+  border-radius: 25px 25px 25px 25px;
+  border: 3px solid #333333;
+}
+.name {
+  font-size: 18px;
+}
+.price{
+  font-size: 18px;
+}
+
+
+ 

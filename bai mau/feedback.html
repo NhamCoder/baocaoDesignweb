@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" type="text/css" href="feed.css" >
+</head>
+<body>
+    <h2> Phiếu phản hồi </h2>
+    <div class="container" >
+        <form action="../bai mau/mau.html">
+        <label for="fname">Tên Khách Hành</label> 
+        <input required type="text" id="fname" name="firsname" placeholder="họ tên..." >
+
+        <label for="password">Số điện thoại</label> <br />
+        <input minlength="10" required type="password" id="password" name="txtpass" placeholder="..." >
+          <br /> <br />
+        <label for="coutry"> Địa Chỉ Khách Hàng </label>
+        <select id="coutry" name="coutry" >
+            <option value="HaNoi"> Hà Nội </option>
+            <option value="HaiPhong"> Hải Phòng </option>
+            <option value="HCM"> HCM </option>
+        </select>
+
+        <label for="comment"> Nhận Xét </label>
+         <textarea required id="comment" name="comment" placeholder="Cảm nhận của bạn về sản phẩm" style="height:200px"></textarea>
+      <input type="submit" value="Gửi" >
+        </form>
+    </div>
+</body>
+</html>
